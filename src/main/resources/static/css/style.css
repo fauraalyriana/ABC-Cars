@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.masthead {
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.masthead:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.9);
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 20%;
+	position: absolute;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	text-align: left;
+	background: transparent;
+}
+
+.bg {
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.bg:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
